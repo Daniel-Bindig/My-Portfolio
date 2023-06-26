@@ -8,7 +8,7 @@ This portfolio is created so that I can display my applications and show any fut
 
 To use this application you can click the links at the top to be taken to the appropriate section of the webpage. At the bottom of the screen where the contact information is you are also able to click the "Github" link to be taken to my github profile. In the future when I have applications that I can put on the portfolio you will be able to click the application shown and be taken to it.
 
-
+Website link: https://daniel-bindig.github.io/My-Portfolio/
 
 ![screenshot](/assets/images/screenshot1.PNG)
 ![screenshot](/assets/images/screenshot2.PNG)
