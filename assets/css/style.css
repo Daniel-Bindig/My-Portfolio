@@ -1,0 +1,127 @@
+:root {
+    --dark: #252638;
+    --light: #ff19cd;
+    --light2: #38fcf2;
+    --orange: #ff8819;
+}
+
+/*Set the font and colours for the webpage*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Setting the navbar position and style*/
+.navbar{
+    display: flex;
+    float: right;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    flex-wrap: nowrap;
+    text-align: right;
+    justify-items: space-between;
+    list-style: none;
+    margin: 0px;
+}
+/*Changing the size and style of the photo*/
+#profile-photo{
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+/*Setting size of H2*/
+h2{
+    font-size: 40px;
+}
+/*setting the position and colour of headings*/
+.heading-box{
+    text-align: center;
+    margin: 10px;
+    border-bottom: var(--light2) 4px solid;
+    border-top: var(--light2) 4px solid;
+    min-width: 500px;
+    display: flex;
+}
+
+.item-heading{
+    position: relative;
+    text-align: center;
+    margin: 0px 0px -20px 0;
+    background-color: var(--light2);
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 8px;
+
+}
+/*Setting the position and size of the first item. Want this to be bigger than the other items on the webpage*/
+#first-image{
+    display: flex;
+    max-height: 600px;
+    min-width: 450px;
+}
+
+#item-1{
+    flex: 2 0 100px;
+    max-width: 100%;
+    max-height: auto;
+}
+/*setting the flex container and the items inside the container*/
+.container img{
+    display: flex;
+    flex: 1 0 100%;
+    flex-grow: 2;
+    max-height: 500px;
+    max-width: 400px;
+    display: block;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: auto;
+    justify-items: space-evenly;
+}
+
+.card{
+    margin: 5px;
+    border: var(--light2) 2px dashed;
+}
+/*Classes to create a flex direction*/
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Setting the position and font for the "Contact Me" section in the footer*/
+footer ul{
+    justify-content: space-between;
+
+}
+
+footer ul li{
+    display: inline-block;
+    text-align: center;
+    font-weight: 550
+    
+}
+/*Makes the font smaller after a certain screen size*/
+@media screen and (max-width: 660px) {
+    footer ul li{
+        font-size: smaller;
+    }
+}

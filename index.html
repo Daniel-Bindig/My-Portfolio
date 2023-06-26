@@ -8,8 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Daniel Bindig</h1>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#About Me">About Me</a></li>
                 <li><a href="#Work">Work</a></li>
@@ -17,42 +16,49 @@
                 <li><a href="#placeholder"></a></li>
             </ul>
         </nav>
+        <h1>Daniel Bindig</h1>
+        <img id="profile-photo" src="./assets/images/Face.jpg" alt="">
     </header>
     <main>
-        <section id="About Me">
-            <div>
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <p>This is some text about how awesome I am fr fr</p>
+        <h2 class="heading-box">About Me</h2>
+        <section class="row" id="About Me">
+                <p class="justify-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </section>
-        <section id="Work">
-            <h2>Work</h2>
-            <div class="work-card">
-                <img src="./assets/images/Kaonashi.jpg" alt="">
+        <div class="heading-box">
+            <h2 id="Work">Work</h2>
+        </div>
+        <section>
+            <h3 class="item-heading">Item 1</h3>
+            <div class="hover" id="first-image">
+                <img id="item-1" class="card" src="./assets/images/Kaonashi.jpg" alt="">
             </div>
-            <div class="work-card">
-                <img src="./assets/images/Lobster Photo.jpg" alt="">
-            </div>
-            <div class="work-card">
-                <img src="./assets/images/Mononoke 2.jpg" alt="">
-            </div>
-            <div class="work-card">
-                <img src="./assets/images/Mononoke.jpg" alt="">
-            </div>
-            <div class="work-card">
-                <img src="./assets/images/Ohm.jpg" alt="">
-            </div>
+            <figure class="container">    
+                <div>
+                    <h3 class="item-heading">Item 2</h3>
+                    <img class="card" src="./assets/images/AOT S1.jpg" alt="">
+                </div>
+                <div>
+                    <h3 class="item-heading">Item 3</h3>
+                    <img class="card" src="./assets/images/Mononoke 2.jpg" alt="">
+                </div>
+                <div>
+                    <h3 class="item-heading">Item 4</h3>
+                    <img class="card" src="./assets/images/Mononoke.jpg" alt="">
+                </div>
+                <div>
+                    <h3 class="item-heading">Item 5</h3>
+                    <img class="card" src="./assets/images/Ohm.jpg" alt="">
+                </div>
+            </figure>
         </section>
     </main>
     <footer id="Contact Me">
-        <h2>Contact Me</h2>
-        <ul>
+        <h2 class="heading-box">Contact Me</h2>
+        <ul class="row">
             <li>#0412123123</li>
             <li>sample@email.com</li>
-            <li>Github</li>
-            <li>Socials</li>
+            <li><a href="https://github.com/Daniel-Bindig">Github</a></li>
         </ul>
     </footer>
 </body>
